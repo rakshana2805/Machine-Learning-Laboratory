@@ -1,0 +1,59 @@
+{
+    "success": true,
+    "dataset": "D:\\GlaucomaClassifier\\dataset\\test",
+    "model_path": "D:\\GlaucomaClassifier\\backend\\models\\glaucoma_model.pkl",
+    "classes": [
+        "Glaucoma",
+        "Normal"
+    ],
+    "images_evaluated": 237,
+    "images_skipped": 0,
+    "metrics": {
+        "accuracy": 71.31,
+        "precision": 70.92,
+        "recall": 71.22,
+        "f1_score": 70.99
+    },
+    "confusion_matrix": [
+        [
+            97,
+            38
+        ],
+        [
+            30,
+            72
+        ]
+    ],
+    "classification_report": {
+        "Glaucoma": {
+            "precision": 0.7637795275590551,
+            "recall": 0.7185185185185186,
+            "f1-score": 0.7404580152671756,
+            "support": 135.0
+        },
+        "Normal": {
+            "precision": 0.6545454545454545,
+            "recall": 0.7058823529411765,
+            "f1-score": 0.6792452830188679,
+            "support": 102.0
+        },
+        "accuracy": 0.7130801687763713,
+        "macro avg": {
+            "precision": 0.7091624910522548,
+            "recall": 0.7122004357298475,
+            "f1-score": 0.7098516491430218,
+            "support": 237.0
+        },
+        "weighted avg": {
+            "precision": 0.7167673948696575,
+            "recall": 0.7130801687763713,
+            "f1-score": 0.7141132950590432,
+            "support": 237.0
+        }
+    },
+    "artifacts": {
+        "confusion_matrix_heatmap": "D:\\GlaucomaClassifier\\backend\\models\\evaluation\\confusion_matrix_heatmap.png",
+        "metrics_bar_chart": "D:\\GlaucomaClassifier\\backend\\models\\evaluation\\metrics_bar_chart.png"
+    },
+    "skipped_files": []
+}
